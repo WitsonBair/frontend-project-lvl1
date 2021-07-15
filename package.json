@@ -1,0 +1,27 @@
+{
+  "name": "frontend-project-lvl1",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Hexlet 1st project",
+  "main": "index.js",
+  "bin": {
+    "frontend-project-lvl1": "bin/brain-games.js",
+    "brain-games": "bin/brain-games.js"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WitsonBair/frontend-project-lvl1.git"
+  },
+  "keywords": [
+    "hexlet"
+  ],
+  "author": "WitsonBair",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WitsonBair/frontend-project-lvl1/issues"
+  },
+  "homepage": "https://github.com/WitsonBair/frontend-project-lvl1#readme"
+}
