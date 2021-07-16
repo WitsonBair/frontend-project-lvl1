@@ -5,3 +5,7 @@ export const enquireName = () => {
   console.log(`Hello, ${name}!`);
   return name;
 };
+
+export const noNamedDefaultRuleSuck = () => {
+  console.log('Just no!');
+};
