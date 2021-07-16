@@ -73,10 +73,10 @@ const isPrimeNumber = (num1) => {
   const primeNumbers = [2, 3, 5, 7];
   const answer = [num1].some((el) => primeNumbers.includes(el));
   if (answer) {
-    return "yes";
+    return 'yes';
   }
   if (num1 === 1) {
-    return "no";
+    return 'no';
   }
   for (let i = 0; i < primeNumbers.length; i += 1) {
     if (num1 % primeNumbers[i] === 0) {
