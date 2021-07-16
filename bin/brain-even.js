@@ -5,4 +5,5 @@ import { engine } from '../src/game-engine.js';
 
 const quest1 = 'Answer "yes" if the number is even, otherwise answer "no".';
 const qntt_of_arg = 1;
-engine(quest1, qntt_of_arg);
+const game = 'even';
+engine(quest1, qntt_of_arg, game);
