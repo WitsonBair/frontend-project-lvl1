@@ -1,5 +1,11 @@
 import readlineSync from 'readline-sync';
-import { enquireName, getRandom } from './cli.js';
+import { enquireName } from './cli.js';
+
+export const getRandom = (max, min) => {
+  const minN = Math.ceil(min);
+  const maxN = Math.floor(max);
+  return Math.floor(Math.random() * (maxN - minN) + minN);
+};
 
 export const isEven = (num1) => {
   let check = false;

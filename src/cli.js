@@ -5,9 +5,3 @@ export const enquireName = () => {
   console.log(`Hello, ${name}!`);
   return name;
 };
-
-export const getRandom = (max, min) => {
-  const minN = Math.ceil(min);
-  const maxN = Math.floor(max);
-  return Math.floor(Math.random() * (maxN - minN) + minN);
-};
