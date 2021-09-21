@@ -6,11 +6,11 @@ export const getRandom = (max, min) => {
   return Math.floor(Math.random() * (maxN - minN) + minN);
 };
 
-const playRound = ( round ) => {
+const playRound = (round) => {
   const [question, correctAnswer] = round;
 
   console.log(`Question: ${question}`);
-  const userAnswer = /*readlineSync.question('Your answer: ');*/ "yes";
+  const userAnswer = readlineSync.question('Your answer: ');
 
   const isCorrectUserAnswer = userAnswer === correctAnswer;
   const responseMessage = isCorrectUserAnswer
@@ -24,12 +24,12 @@ const playRound = ( round ) => {
 
 export const playGame = (description, makeRound) => {
   console.log('Welcome to the Brain Games!');
-  const username = /*/readlineSync.question('May I have your name? ');*/ "Bair";
+  const username = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${username}`);
   console.log(description);
 
   for (let i = 0; i < 3; i += 1) {
-    const check = playRound( makeRound );
+    const check = playRound(makeRound());
     if (!check) {
       console.log(`Let's try again, ${username}!`);
       return;
@@ -39,4 +39,4 @@ export const playGame = (description, makeRound) => {
   console.log(`Congratulations, ${username}!`);
 };
 
-//export default playGame;
+// export default playGame;
