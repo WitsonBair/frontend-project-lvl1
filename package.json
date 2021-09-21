@@ -5,13 +5,13 @@
   "description": "Hexlet 1st project",
   "main": "index.js",
   "bin": {
-    "frontend-project-lvl1": "bin/brain-games.js",
-    "brain-games": "bin/brain-games.js",
-    "brain-even": "bin/brain-even.js",
-    "brain-calc": "bin/brain-calc.js",
-    "brain-gcd": "bin/brain-gcd.js",
-    "brain-progression": "bin/brain-progression.js",
-    "brain-prime": "bin/brain-prime.js"
+    "frontend-project-lvl1": "src/games/brain-games.js",
+    "brain-calc": "bin/calc.js",
+    "brain-even": "bin/even.js",
+    "brain-games": "src/games/brain-games.js",
+    "brain-gcd": "bin/gcd.js",
+    "brain-prime": "bin/prime.js",
+    "brain-progression": "bin/progression.js"
   },
   "scripts": {
     "test": "test"
