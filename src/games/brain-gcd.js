@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 import { playGame, getRandom } from '../game-engine.js';
 
 const quest1 = 'Find the greatest common divisor of given numbers.';

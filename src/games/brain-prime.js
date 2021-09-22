@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 import { playGame, getRandom } from '../game-engine.js';
 
 const quest1 = 'Answer "yes" if given number is prime. Otherwise answer "no".';

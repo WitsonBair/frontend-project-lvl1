@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 import { playGame, getRandom } from '../game-engine.js';
 
 const quest1 = 'Answer "yes" if the number is even, otherwise answer "no".';

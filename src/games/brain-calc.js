@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 import { playGame, getRandom } from '../game-engine.js';
 
 const quest1 = 'What is the result of the expression?';

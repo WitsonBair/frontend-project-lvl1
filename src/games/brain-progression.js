@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 import { playGame, getRandom } from '../game-engine.js';
 
 const quest1 = 'What number is missing in the progression?';
