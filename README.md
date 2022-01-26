@@ -5,20 +5,20 @@
 ```sh
 $ brain-even
 ```
-[![asciicast](https://asciinema.org/a/CkVjXAF9xE1mANWnEMtJ1dWBG.svg)](https://asciinema.org/a/CkVjXAF9xE1mANWnEMtJ1dWBG)
+[![asciicast](https://asciinema.org/a/wUh3wjM8bmXASpeXUBxG1Fzru.svg)](https://asciinema.org/a/wUh3wjM8bmXASpeXUBxG1Fzru)
 ```sh
 $ brain-calc
 ```
-[![asciicast](https://asciinema.org/a/0Ocy6AqTbwb2UWgeSmbFFvDzM.svg)](https://asciinema.org/a/0Ocy6AqTbwb2UWgeSmbFFvDzM)
+[![asciicast](https://asciinema.org/a/cKu0vnQAJvxZyKJGRMl79GTep.svg)](https://asciinema.org/a/cKu0vnQAJvxZyKJGRMl79GTep)
 ```sh
 $ brain-gcd
 ```
-[![asciicast](https://asciinema.org/a/Io60m2d1Vldu9JvWqvXbEhDU3.svg)](https://asciinema.org/a/Io60m2d1Vldu9JvWqvXbEhDU3)
+[![asciicast](https://asciinema.org/a/nn8mW4Joe9wju7vpQbLHJgngn.svg)](https://asciinema.org/a/nn8mW4Joe9wju7vpQbLHJgngn)
 ```sh
 $ brain-progression
 ```
-[![asciicast](https://asciinema.org/a/bcsH7CQuJOf12tRU1rO3vaHHJ.svg)](https://asciinema.org/a/bcsH7CQuJOf12tRU1rO3vaHHJ)
+[![asciicast](https://asciinema.org/a/Hhr3sGMSFDHOHdessT0zSRD1F.svg)](https://asciinema.org/a/Hhr3sGMSFDHOHdessT0zSRD1F)
 ```sh
 $ brain-prime
 ```
-[![asciicast](https://asciinema.org/a/eVUdopvGMgZ0u0nHfmeUHkasT.svg)](https://asciinema.org/a/eVUdopvGMgZ0u0nHfmeUHkasT)
+[![asciicast](https://asciinema.org/a/oif2yXZuLxx15fTuryaFuvRvI.svg)](https://asciinema.org/a/oif2yXZuLxx15fTuryaFuvRvI)
