@@ -4,9 +4,9 @@ const quest1 = 'What is the result of the expression?';
 
 const makeCalc = (sign, num1, num2) => {
   const calc = {
-    "+": (a, b) => a + b,
-    "-": (a, b) => a - b,
-    "*": (a, b) => a * b
+    '+': (a, b) => a + b,
+    '-': (a, b) => a - b,
+    '*': (a, b) => a * b,
   };
   const result = calc[sign](num1, num2);
   return String(result);

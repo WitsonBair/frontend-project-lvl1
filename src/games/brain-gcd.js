@@ -2,7 +2,7 @@ import { playGame, getRandom } from '../game-engine.js';
 
 const quest1 = 'Find the greatest common divisor of given numbers.';
 
-const calcGCD = (a, b) => b === 0 ? String(Math.abs(a)) : calcGCD(b, a % b);
+const calcGCD = (a, b) => (b === 0 ? String(Math.abs(a)) : calcGCD(b, a % b));
 
 export const makeRound = () => {
   const num1 = getRandom(100, 1);
