@@ -1,10 +1,12 @@
-import { playGame, getRandom } from '../game-engine.js';
+import { playGame, getRandomNumber } from '../game-engine.js';
 
 const quest1 = 'Answer "yes" if the number is even, otherwise answer "no".';
 
+const isEven = (num) => num % 2 === 0;
+
 export const makeRound = () => {
-  const num = getRandom(100, 0);
-  const result = num % 2 === 0 ? 'yes' : 'no';
+  const num = getRandomNumber(100, 0);
+  const result = isEven(num) ? 'yes' : 'no';
   return [num, result];
 };
 

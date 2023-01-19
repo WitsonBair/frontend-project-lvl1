@@ -1,21 +1,19 @@
-import { playGame, getRandom } from '../game-engine.js';
+import { playGame, getRandomNumber } from '../game-engine.js';
 
 const quest1 = 'What number is missing in the progression?';
 
 const makeAnArray = () => {
-  let first = getRandom(100, 1);
-  const step = getRandom(10, 1);
-  const arr = [first];
-  // val = first + i * step - не могу понять для чего усложнять
+  const first = getRandomNumber(100, 1);
+  const step = getRandomNumber(10, 1);
+  const arr = [];
   for (let i = 0; i < 9; i += 1) {
-    first += step;
-    arr.push(first);
+    arr.push(first + i * step);
   }
   return arr;
 };
 
 const arrRand = () => {
-  const num = getRandom(9, 0);
+  const num = getRandomNumber(9, 0);
   return num;
 };
 
@@ -27,5 +25,7 @@ export const makeRound = () => {
   const question = arr.join(' ');
   return [question, answer];
 };
+
+makeAnArray();
 
 export default () => playGame(quest1, makeRound);
