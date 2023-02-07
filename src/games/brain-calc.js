@@ -1,5 +1,5 @@
 import playGame from '../game-engine.js';
-import getRandomNumber from '../get-random-number.js'
+import getRandomNumber from '../get-random-number.js';
 
 const quest1 = 'What is the result of the expression?';
 

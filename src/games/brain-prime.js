@@ -1,5 +1,5 @@
 import playGame from '../game-engine.js';
-import getRandomNumber from '../get-random-number.js'
+import getRandomNumber from '../get-random-number.js';
 
 const quest1 = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
