@@ -1,4 +1,5 @@
-import { playGame, getRandomNumber } from '../game-engine.js';
+import playGame from '../game-engine.js';
+import getRandomNumber from '../get-random-number.js'
 
 const quest1 = 'Find the greatest common divisor of given numbers.';
 

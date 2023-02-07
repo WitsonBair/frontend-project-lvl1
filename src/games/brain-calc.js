@@ -1,4 +1,5 @@
-import { playGame, getRandomNumber } from '../game-engine.js';
+import playGame from '../game-engine.js';
+import getRandomNumber from '../get-random-number.js'
 
 const quest1 = 'What is the result of the expression?';
 
@@ -17,7 +18,7 @@ export const makeRound = () => {
   const num1 = getRandomNumber(100, 1);
   const num2 = getRandomNumber(100, 1);
   const sign = operations[index];
-  const question = `${num1} ${operations[index]} ${num2}`;
+  const question = `${num1} ${sign} ${num2}`;
   const answer = makeCalc(sign, num1, num2);
   return [question, `${answer}`];
 };
