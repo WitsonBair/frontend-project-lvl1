@@ -8,7 +8,6 @@
     "frontend-project-lvl1": "src/games/brain-games.js",
     "brain-calc": "bin/calc.js",
     "brain-even": "bin/even.js",
-    "brain-games": "src/games/brain-games.js",
     "brain-gcd": "bin/gcd.js",
     "brain-prime": "bin/prime.js",
     "brain-progression": "bin/progression.js"
